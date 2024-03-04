@@ -33,7 +33,7 @@
         <record id="group_learning_administration" model="res.groups">
             <field name="name">Learning Administrator</field>
             <field name="category_id" ref="module_category_learning"/>
-            <field name="implied_ids" eval="[(4, ref('res_groups_utilisateur_r0')), (4, ref('group_learning_backoffice')), (4, ref('website.group_website_designer'))]"/>
+            <field name="implied_ids" eval="[(4, ref('res_groups_utilisateur_r0')), (4, ref('group_learning_trainer')), (4, ref('website.group_website_designer'))]"/>
             <field name="users" eval="[(4, ref('base.user_root'))]"/>
         </record>
         <!-- ir.rules -->

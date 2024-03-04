@@ -56,3 +56,8 @@ class ProductTemplate(models.Model):
         type_mapping = super()._detailed_type_mapping()
         type_mapping['learning'] = 'service'
         return type_mapping
+    
+    @api.onchange('is_learning')
+    def _force_detailed_type(self):
+        if self.is_learning:
+            self.detailed_type = 'event'

@@ -124,6 +124,132 @@ msgid "Duration in hour(s)"
 msgstr "Durée en heure(s)"
 
 #. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_event_event__duration_days
+#: model:ir.model.fields,field_description:learning_base.field_product_product__duration_days
+#: model:ir.model.fields,field_description:learning_base.field_product_template__duration_days
+msgid "Duration in day(s)"
+msgstr "Durée en jour(s)"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_event_event__date_text
+msgid "Date in text mode"
+msgstr "Date (format texte)"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_event_event__hour_text
+msgid "Training time"
+msgstr "Horaires (format texte)"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_event_event__methodology_partner_id
+msgid "Methodology partner"
+msgstr "Partenaire méthodologique"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__duration_html
+#: model:ir.model.fields,field_description:learning_base.field_product_template__duration_html
+msgid "Duration"
+msgstr "Durée"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__duration_text
+#: model:ir.model.fields,field_description:learning_base.field_product_template__duration_text
+msgid "Duration details"
+msgstr "Détails de temporalité"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Duration Details"
+msgstr "Détails de durée"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__financial_program_ids
+#: model:ir.model.fields,field_description:learning_base.field_product_template__financial_program_ids
+msgid "Financial Program"
+msgstr "Programme financier"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__hours_per_day
+#: model:ir.model.fields,field_description:learning_base.field_product_template__hours_per_day
+msgid "Nb hour(s) per day(s) ?"
+msgstr "Nb d'heures par jour"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__organizer
+#: model:ir.model.fields,field_description:learning_base.field_product_template__organizer
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Organizer"
+msgstr "Organisateur"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__price_html
+#: model:ir.model.fields,field_description:learning_base.field_product_template__price_html
+msgid "Price"
+msgstr "Prix"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Content"
+msgstr "Contenu"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+msgid "Price details"
+msgstr "Informations de tarification"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Price Details"
+msgstr "Informations de tarification"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Registration Details"
+msgstr "Modalités d'inscription"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
+msgid "Technic"
+msgstr "Technique"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+msgid "Specific duration details"
+msgstr "Informations spécifiques sur la temporalité de la formation"
+
+#. module: learning_base
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+msgid "To edit content, please go to the website page directly."
+msgstr "Pour modifier ces informations, merci de passer par la page du site web directement."
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__registration
+#: model:ir.model.fields,field_description:learning_base.field_product_template__registration
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+msgid "Registration"
+msgstr "Inscription"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__organizer
+#: model:ir.model.fields,field_description:learning_base.field_product_template__organizer
+msgid "Organizer"
+msgstr "Organisateur"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__sessions_ids
+#: model:ir.model.fields,field_description:learning_base.field_product_template__sessions_ids
+msgid "Slots"
+msgstr "Sessions"
+
+#. module: learning_base
+#: model:ir.model.fields,field_description:learning_base.field_product_product__technic
+#: model:ir.model.fields,field_description:learning_base.field_product_template__technic
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+msgid "Technical"
+msgstr "Technique"
+
+#. module: learning_base
 #: model:ir.model,name:learning_base.model_event_event
 msgid "Event"
 msgstr "Événement"
@@ -143,6 +269,7 @@ msgstr "Formation"
 #: model:ir.model.fields,field_description:learning_base.field_product_product__goal
 #: model:ir.model.fields,field_description:learning_base.field_product_template__goal
 #: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
 msgid "Goal"
 msgstr "Objectif(s)"
 
@@ -221,6 +348,7 @@ msgstr "Formateur"
 #: model:ir.model.fields,field_description:learning_base.field_product_product__methodology
 #: model:ir.model.fields,field_description:learning_base.field_product_template__methodology
 #: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
 msgid "Methodology"
 msgstr "Méthodologie"
 
@@ -283,6 +411,8 @@ msgstr "Événements passés"
 #. module: learning_base
 #: model:ir.model.fields,field_description:learning_base.field_product_product__prerequisite
 #: model:ir.model.fields,field_description:learning_base.field_product_template__prerequisite
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
 msgid "Prerequisite"
 msgstr "Les Pré-requis"
 
@@ -295,6 +425,7 @@ msgstr "Modèle d'article"
 #: model:ir.model.fields,field_description:learning_base.field_product_product__public
 #: model:ir.model.fields,field_description:learning_base.field_product_template__public
 #: model_terms:ir.ui.view,arch_db:learning_base.learning_base_product_template_form
+#: model_terms:ir.ui.view,arch_db:learning_base.learning_product
 msgid "Public"
 msgstr "Publique"
 
@@ -366,3 +497,13 @@ msgstr "Est une formation"
 #: model:ir.model,name:learning_base.model_learning_domain
 msgid "learning.domain"
 msgstr "learning.domain"
+
+#. module: learning_base
+#: model:ir.ui.menu,name:learning_base.ir_ui_menu_contact_r2
+msgid "Trainer(s)"
+msgstr "Formateurs exterieurs"
+
+#. module: learning_base
+#: model:ir.ui.menu,name:learning_base.ir_ui_menu_contact_r1
+msgid "Learning Company"
+msgstr "Sociétés de formation"

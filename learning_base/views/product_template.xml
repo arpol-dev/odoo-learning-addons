@@ -22,6 +22,9 @@
       <field name="detailed_type" position="after">
         <field name="is_learning" />
       </field>
+      <field name="detailed_type" position="attributes">
+        <attribute name="attrs">{'readonly':[('is_learning','=',True)]}</attribute>
+      </field>
 
       <page name="sales" position="after">
         <page string="Learning" attrs="{'invisible':[('is_learning','=', False)]}"
@@ -38,7 +41,7 @@
               <field name="duration_hour" />
             </group>
             <group>
-              <field name="duration_text" placeholder="Specific duration details" nolabel="1" />
+              <field name="duration_text" placeholder="Specific duration details" colspan="2" nolabel="1" />
             </group>
           </group>
           <group name="Financial Programs">
